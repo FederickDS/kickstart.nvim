@@ -9,6 +9,8 @@ In the machine i need it. If you make changes to the configuration, like adding 
 
 ```sh
 cd "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
-git push origin main
+git add .
+git commit -m "<changes description>"
+git push origin master
 ```
 
